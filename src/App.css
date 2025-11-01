@@ -1,0 +1,20 @@
+@keyframes soft-pulse {
+  0% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.55;
+  }
+}
+
+.pulse-soft {
+  animation: soft-pulse 6s ease-in-out infinite;
+}
+
+.glass-gradient {
+  background: radial-gradient(circle at 30% 20%, rgba(102, 84, 204, 0.22), transparent 55%),
+    radial-gradient(circle at 70% 80%, rgba(148, 129, 255, 0.18), transparent 65%);
+}
