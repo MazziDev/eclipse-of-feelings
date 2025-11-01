@@ -1,16 +1,24 @@
-# React + Vite
+# Eclipse de Sentimentos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Experiência imersiva em React, Tailwind, GSAP e React Three Fiber mostrando a jornada de duas luas que se encontram. Desenvolvida para rodar 100% em front-end e pronta para deploy no GitHub Pages.
 
-Currently, two official plugins are available:
+## Tecnologias
+- React 18 + Vite
+- TailwindCSS
+- GSAP
+- Framer Motion
+- React Three Fiber + Three.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Scripts
+- `npm run dev` — inicia o ambiente local em `http://localhost:5173/eclipse-of-feelings/`
+- `npm run build` — gera a versão de produção em `dist/`
+- `npm run deploy` — monta o build e publica no branch `gh-pages`
 
-## React Compiler
+## Deploy no GitHub Pages
+1. Ajuste o repositório remoto (`git remote add origin https://github.com/MazziDev/eclipse-of-feelings.git`).
+2. Faça commit das alterações (`git commit -am "mensagem"`).
+3. Suba para o GitHub com `git push origin main`.
+4. Execute `npm run deploy` para atualizar o branch `gh-pages`.
+5. Em *Settings → Pages*, deixe a fonte em `Deploy from a branch`, selecionando `gh-pages` / root.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O site ficará disponível em `https://MazziDev.github.io/eclipse-of-feelings/`.
